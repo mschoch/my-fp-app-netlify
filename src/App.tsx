@@ -16,8 +16,8 @@ function App() {
         console.log("subscribe sees docs", docIds);
     }, true);
 
-
-    connect(database/*, document.location.origin*/);
+    /* @ts-ignore */
+    connect(database, "", document.location.origin);
 
     function createDocument() {
         database.put({'foo':'bar'}).then(value => setDocID(value.id))

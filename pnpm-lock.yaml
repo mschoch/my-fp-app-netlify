@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@fireproof/core':
-        specifier: file:/Users/mschoch/fireproof/dist/fireproof-core/fireproof-core-0.0.0-smoke.tgz
-        version: file:../fireproof/dist/fireproof-core/fireproof-core-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)
+        specifier: file:./deps/fireproof-core-0.0.0-smoke.tgz
+        version: file:deps/fireproof-core-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)
       '@fireproof/netlify':
-        specifier: file:/Users/mschoch/connect/dist/netlify/fireproof-netlify-0.0.0-smoke.tgz
-        version: file:../connect/dist/netlify/fireproof-netlify-0.0.0-smoke.tgz
+        specifier: file:./deps/fireproof-netlify-0.0.0-smoke.tgz
+        version: file:deps/fireproof-netlify-0.0.0-smoke.tgz
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -21,8 +21,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       use-fireproof:
-        specifier: file:/Users/mschoch/fireproof/dist/use-fireproof/use-fireproof-0.0.0-smoke.tgz
-        version: file:../fireproof/dist/use-fireproof/use-fireproof-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)
+        specifier: file:./deps/use-fireproof-0.0.0-smoke.tgz
+        version: file:deps/use-fireproof-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)
     devDependencies:
       '@eslint/js':
         specifier: ^9.9.0
@@ -327,14 +327,14 @@ packages:
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fireproof/core@file:../fireproof/dist/fireproof-core/fireproof-core-0.0.0-smoke.tgz':
-    resolution: {integrity: sha512-y0mJAAH4TzCm6XuXb3PaogNrY64KcjnySRZWblWQHCJ52jui1AEVqf/7sWRy6NhHgvqS6oNfMm6CKHjDR++RQg==, tarball: file:../fireproof/dist/fireproof-core/fireproof-core-0.0.0-smoke.tgz}
+  '@fireproof/core@file:deps/fireproof-core-0.0.0-smoke.tgz':
+    resolution: {integrity: sha512-y0mJAAH4TzCm6XuXb3PaogNrY64KcjnySRZWblWQHCJ52jui1AEVqf/7sWRy6NhHgvqS6oNfMm6CKHjDR++RQg==, tarball: file:deps/fireproof-core-0.0.0-smoke.tgz}
     version: 0.0.0-smoke
     peerDependencies:
       react: '>=18.0.0'
 
-  '@fireproof/netlify@file:../connect/dist/netlify/fireproof-netlify-0.0.0-smoke.tgz':
-    resolution: {integrity: sha512-xvCmClTK3qYrl/u10yZR4ipO14aWut8kJg4eOBdE9cPJS7848o3txOJ/qJgNWoZY0/bi6UYrNYj24+Rpi0TfEA==, tarball: file:../connect/dist/netlify/fireproof-netlify-0.0.0-smoke.tgz}
+  '@fireproof/netlify@file:deps/fireproof-netlify-0.0.0-smoke.tgz':
+    resolution: {integrity: sha512-xvCmClTK3qYrl/u10yZR4ipO14aWut8kJg4eOBdE9cPJS7848o3txOJ/qJgNWoZY0/bi6UYrNYj24+Rpi0TfEA==, tarball: file:deps/fireproof-netlify-0.0.0-smoke.tgz}
     version: 0.0.0-smoke
 
   '@humanwhocodes/module-importer@1.0.1':
@@ -1341,8 +1341,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  use-fireproof@file:../fireproof/dist/use-fireproof/use-fireproof-0.0.0-smoke.tgz:
-    resolution: {integrity: sha512-4LNJADdyJGU7uXmywQMejb23o5+DsvIf2xM4pRMPF5lXAynhDuQSBxEx+VIGObneITLMhWI0z6piIepQvQY3kw==, tarball: file:../fireproof/dist/use-fireproof/use-fireproof-0.0.0-smoke.tgz}
+  use-fireproof@file:deps/use-fireproof-0.0.0-smoke.tgz:
+    resolution: {integrity: sha512-4LNJADdyJGU7uXmywQMejb23o5+DsvIf2xM4pRMPF5lXAynhDuQSBxEx+VIGObneITLMhWI0z6piIepQvQY3kw==, tarball: file:deps/use-fireproof-0.0.0-smoke.tgz}
     version: 0.0.0-smoke
     peerDependencies:
       react: '>=18.0.0'
@@ -1661,7 +1661,7 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@fireproof/core@file:../fireproof/dist/fireproof-core/fireproof-core-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)':
+  '@fireproof/core@file:deps/fireproof-core-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)':
     dependencies:
       '@adviser/cement': 0.2.30(typescript@5.6.2)
       '@ipld/car': 5.3.2
@@ -1681,7 +1681,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@fireproof/netlify@file:../connect/dist/netlify/fireproof-netlify-0.0.0-smoke.tgz':
+  '@fireproof/netlify@file:deps/fireproof-netlify-0.0.0-smoke.tgz':
     dependencies:
       '@netlify/blobs': 7.4.0
       cross-fetch: 4.0.0
@@ -2705,7 +2705,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-fireproof@file:../fireproof/dist/use-fireproof/use-fireproof-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2):
+  use-fireproof@file:deps/use-fireproof-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2):
     dependencies:
       '@adviser/cement': 0.2.30(typescript@5.6.2)
       '@ipld/car': 5.3.2

@@ -10,11 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fireproof/core": "file:/Users/mschoch/fireproof/dist/fireproof-core/fireproof-core-0.0.0-smoke.tgz",
-    "@fireproof/netlify": "file:/Users/mschoch/connect/dist/netlify/fireproof-netlify-0.0.0-smoke.tgz",
+    "@fireproof/core": "file:./deps/fireproof-core-0.0.0-smoke.tgz",
+    "@fireproof/netlify": "file:./deps/fireproof-netlify-0.0.0-smoke.tgz",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "use-fireproof": "file:/Users/mschoch/fireproof/dist/use-fireproof/use-fireproof-0.0.0-smoke.tgz"
+    "use-fireproof": "file:./deps/use-fireproof-0.0.0-smoke.tgz"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
