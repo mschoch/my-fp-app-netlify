@@ -8,7 +8,7 @@ function App() {
     console.log("app happened");
     const [docID, setDocID] = useState("");
     const [msg, setMsg] = useState("");
-    const { database } = useFireproof("fptest")
+    const { database } = useFireproof("fptest2")
     database.sthis.env.set("FP_KEYBAG_URL", 'indexdb://fp-keybag?extractKey=_deprecated_internal_api')
 
     database.subscribe((docs) => {
