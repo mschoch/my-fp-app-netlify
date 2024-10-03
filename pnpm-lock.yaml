@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@fireproof/core':
-        specifier: file:./deps/fireproof-core-0.0.0-smoke.tgz
-        version: file:deps/fireproof-core-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)
+        specifier: 0.19.11-dev-dryrun
+        version: 0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2)
       '@fireproof/netlify':
-        specifier: file:./deps/fireproof-netlify-0.0.0-smoke.tgz
-        version: file:deps/fireproof-netlify-0.0.0-smoke.tgz
+        specifier: 0.19.11-dev-dryrun
+        version: 0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2)
       '@netlify/blobs':
         specifier: ^8.0.1
         version: 8.0.1
@@ -24,8 +24,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       use-fireproof:
-        specifier: file:./deps/use-fireproof-0.0.0-smoke.tgz
-        version: file:deps/use-fireproof-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)
+        specifier: 0.19.11-dev-dryrun
+        version: 0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2)
     devDependencies:
       '@eslint/js':
         specifier: ^9.9.0
@@ -63,8 +63,8 @@ importers:
 
 packages:
 
-  '@adviser/cement@0.2.30':
-    resolution: {integrity: sha512-zE3o6Xz2N4kSNRWxJVzSkbvN+dCSFTkQ0lOHaPR3ZbzegvmYO90kQuZWqctmTU7gYevmnPsi8J3WFUCD3HTpqQ==}
+  '@adviser/cement@0.2.31':
+    resolution: {integrity: sha512-z8UCOqy0FgKtKTub9efBtGNeWn0JghlfUq6Rz7FsTmt/AjR+jPPPZuzVckVkYqNlyKdY+hu+SlfiTockzW+uEw==}
     engines: {node: '>=16'}
 
   '@ampproject/remapping@2.3.0':
@@ -330,15 +330,13 @@ packages:
     resolution: {integrity: sha512-vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@fireproof/core@file:deps/fireproof-core-0.0.0-smoke.tgz':
-    resolution: {integrity: sha512-y0mJAAH4TzCm6XuXb3PaogNrY64KcjnySRZWblWQHCJ52jui1AEVqf/7sWRy6NhHgvqS6oNfMm6CKHjDR++RQg==, tarball: file:deps/fireproof-core-0.0.0-smoke.tgz}
-    version: 0.0.0-smoke
+  '@fireproof/core@0.19.11-dev-dryrun':
+    resolution: {integrity: sha512-ptccEMIEHh3SCGVzyP0noqkKg/hQBc7l5yqM8z9NfNgiePs9CPLdWZJNbR9qFbMZRRGpU6WsZf71MkWSMiw3sw==}
     peerDependencies:
       react: '>=18.0.0'
 
-  '@fireproof/netlify@file:deps/fireproof-netlify-0.0.0-smoke.tgz':
-    resolution: {integrity: sha512-xvCmClTK3qYrl/u10yZR4ipO14aWut8kJg4eOBdE9cPJS7848o3txOJ/qJgNWoZY0/bi6UYrNYj24+Rpi0TfEA==, tarball: file:deps/fireproof-netlify-0.0.0-smoke.tgz}
-    version: 0.0.0-smoke
+  '@fireproof/netlify@0.19.11-dev-dryrun':
+    resolution: {integrity: sha512-0I5dgvJbpI4sMH9T0gMaSJoflxwjEUogO907Z/0bCUKi7LdehWYvbLjSb3l01/kp1CXjKuP12RuQT57RIgXehg==}
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -1348,9 +1346,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  use-fireproof@file:deps/use-fireproof-0.0.0-smoke.tgz:
-    resolution: {integrity: sha512-4LNJADdyJGU7uXmywQMejb23o5+DsvIf2xM4pRMPF5lXAynhDuQSBxEx+VIGObneITLMhWI0z6piIepQvQY3kw==, tarball: file:deps/use-fireproof-0.0.0-smoke.tgz}
-    version: 0.0.0-smoke
+  use-fireproof@0.19.11-dev-dryrun:
+    resolution: {integrity: sha512-vmmLjqkW6/N6cvX4keOuXAr/vRff7jwED0OeTCBk/WVTfe1Ygz8uytGfLBEt/rneIk6wPJdElE59qAKS8CUkFQ==}
     peerDependencies:
       react: '>=18.0.0'
 
@@ -1424,7 +1421,7 @@ packages:
 
 snapshots:
 
-  '@adviser/cement@0.2.30(typescript@5.6.2)':
+  '@adviser/cement@0.2.31(typescript@5.6.2)':
     dependencies:
       ts-essentials: 10.0.2(typescript@5.6.2)
       yaml: 2.5.1
@@ -1668,9 +1665,9 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@fireproof/core@file:deps/fireproof-core-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2)':
+  '@fireproof/core@0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2)':
     dependencies:
-      '@adviser/cement': 0.2.30(typescript@5.6.2)
+      '@adviser/cement': 0.2.31(typescript@5.6.2)
       '@ipld/car': 5.3.2
       '@ipld/dag-cbor': 9.2.1
       '@ipld/dag-json': 10.2.2
@@ -1688,12 +1685,15 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@fireproof/netlify@file:deps/fireproof-netlify-0.0.0-smoke.tgz':
+  '@fireproof/netlify@0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2)':
     dependencies:
+      '@fireproof/core': 0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2)
       '@netlify/blobs': 7.4.0
       cross-fetch: 4.0.0
     transitivePeerDependencies:
       - encoding
+      - react
+      - typescript
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
@@ -2714,9 +2714,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  use-fireproof@file:deps/use-fireproof-0.0.0-smoke.tgz(react@18.3.1)(typescript@5.6.2):
+  use-fireproof@0.19.11-dev-dryrun(react@18.3.1)(typescript@5.6.2):
     dependencies:
-      '@adviser/cement': 0.2.30(typescript@5.6.2)
+      '@adviser/cement': 0.2.31(typescript@5.6.2)
       '@ipld/car': 5.3.2
       '@ipld/unixfs': 3.0.0
       '@web3-storage/pail': 0.6.0

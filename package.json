@@ -10,12 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fireproof/core": "file:./deps/fireproof-core-0.0.0-smoke.tgz",
-    "@fireproof/netlify": "file:./deps/fireproof-netlify-0.0.0-smoke.tgz",
+    "@fireproof/core": "0.19.11-dev-dryrun",
+    "@fireproof/netlify": "0.19.11-dev-dryrun",
     "@netlify/blobs": "^8.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "use-fireproof": "file:./deps/use-fireproof-0.0.0-smoke.tgz"
+    "use-fireproof": "0.19.11-dev-dryrun"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
